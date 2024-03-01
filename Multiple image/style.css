@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: lavenderblush;
+    position: relative;
+
+}
+.elem{
+    border-bottom: 3px solid maroon;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.elem h1{
+    position: relative;
+    z-index: 9;
+}
+.elem img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    opacity: 0;
+}
