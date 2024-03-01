@@ -44,3 +44,14 @@ btn:hover{
     background-color: pink;
     color: black;
 }
+#card i{
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    font-size: 70px;
+    color: white;
+    transform: scale(0);
+    opacity: 0.8;
+    transition: all ease 0.5s;
+
+}
