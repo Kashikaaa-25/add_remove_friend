@@ -3,6 +3,8 @@ var btnChng = document.querySelector("btn");
 var flag = 0;
 var img = document.querySelector("img");
 var love = document.querySelector("i");
+var area =  document.querySelector("body");
+var cmove = document.querySelector(".cursor");
 
 
 btnChng.addEventListener("click",function(){
@@ -29,4 +31,9 @@ img.addEventListener("dblclick",function(){
         love.style.transform = "scale(0)";
         love.style.transition = "all";
     },1000)
+})
+
+area.addEventListener("mousemove",function(dets){
+    cmove.style.left = dets.x+ "px";
+    cmove.style.top = dets.y+"px";
 })
